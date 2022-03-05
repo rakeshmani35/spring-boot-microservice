@@ -10,8 +10,8 @@ How to balance load using spring cloud ribbon
 
 # RibbonConfiguration
 
-IClientConfig
-IPing
+IClientConfig,
+IPing,
 IRule
 
 # application.yml
