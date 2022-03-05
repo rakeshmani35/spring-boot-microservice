@@ -17,6 +17,7 @@ enable class
 @EnableHystrix
 
 add at hystric command at method
+
 @HystrixCommand(groupKey = "abc abc", commandKey = "abc abc", fallbackMethod = "bookMyShowFallBack")
 
 # fallback method
