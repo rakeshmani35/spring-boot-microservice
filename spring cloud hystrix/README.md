@@ -14,7 +14,9 @@ How to use hystrix
     
 # enable hystrix
 enable class
+
 @EnableHystrix
+
 
 add at hystric command at method
 
@@ -22,6 +24,7 @@ add at hystric command at method
 
 # fallback method
 fallback method return type same as hystrix command method return type
+
 public String bookMyShowFallBack() {
 		return "service gateway failed...";
 	}
