@@ -31,20 +31,20 @@ public String bookMyShowFallBack() {
     
     
  # 1. if all service up
- # http://localhost:8080/bookNow
+ #http://localhost:8080/bookNow
   Email Service Called....
   Payment Service Called....
  
- # http://localhost:8080/bookNowWithoutHystrix
+ #http://localhost:8080/bookNowWithoutHystrix
   Email Service Called....
   Payment Service Called....
  
  # 2. if any service down
- # http://localhost:8080/bookNow
+ #http://localhost:8080/bookNow
    service gateway failed...
  
  
- # http://localhost:8080/bookNowWithoutHystrix
+ #http://localhost:8080/bookNowWithoutHystrix
  {
     "timestamp": "2022-03-05T12:22:33.482+00:00",
     "status": 500,
