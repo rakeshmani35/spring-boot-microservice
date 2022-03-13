@@ -28,11 +28,19 @@ IRule
 # application.yml
 
 chatbook:
+
   ribbon:
+  
     eureka:
+    
       enabled: false
+      
     listOfServers: localhost:8081,localhost:8082,localhost:8083
+    
     ServerListRefreshInterval: 2000
  
 server:
   port: 9090
+
+
+when hit the http://localhost:9090/chat multiple time, then service will hit on different different port in sequence like 8081, 8082, 8083. This sequence happening because of round-robin algorithm used in ribbon load balancer.
