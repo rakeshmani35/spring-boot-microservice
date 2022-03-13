@@ -28,10 +28,15 @@ IRule
 # application.yml
 
 chatbook:
+
   ribbon:
+  
     eureka:
+    
       enabled: false
+      
     listOfServers: localhost:8081,localhost:8082,localhost:8083
+    
     ServerListRefreshInterval: 2000
  
 server:
