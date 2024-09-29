@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="hospital-gateway"/>
+<aop-project name="doctor-service"/>
+<aop-project name="diagnosis-service"/>
+<aop-project name="EurekaServer"/>
+</aop-reference-model>
