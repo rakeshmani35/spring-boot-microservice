@@ -51,3 +51,16 @@ Orchestration vs. Choreography
 =================================
 To better understand the differences between orchestration and choreography, let’s look at their main distinctions in a table format:
 <img width="562" alt="image" src="https://github.com/user-attachments/assets/9f30db73-f3ac-4d7e-96e2-15df81443cca">
+
+Principles of icroservice architecture
+======================================
+   - Scalability
+   - Availability
+   - Resiliency
+   - Independent, autonomous
+   - Decentralized governance
+   - Failure isolation
+   - Auto-Provisioning
+   - Continuous delivery through DevOps
+
+     
